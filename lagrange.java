@@ -13,7 +13,6 @@ public class lagrange {
 
         for (int i = 0; i < n; i++) {
             BigInteger term = yValues.get(i);
-
             for (int j = 0; j < n; j++) {
                 if (j != i) {
                     BigInteger numerator = BigInteger.ZERO.subtract(xValues.get(j));
